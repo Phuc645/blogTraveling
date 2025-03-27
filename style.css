@@ -1,12 +1,12 @@
 body {
     font-family: 'Times New Roman', Times, serif;
-
 }
 
 .content{
     display: flex;
     justify-content: space-evenly;
-    margin-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 h3 {
@@ -19,10 +19,6 @@ h3 {
     border-radius: 15px;
 }
 
-.header {
-    background-color: blue;
-    padding: 10px;
-}
 
 .hero {
     font-size: large;
@@ -30,3 +26,24 @@ h3 {
     background-color: chocolate;
     padding: 150px 50px 200px 20px;
 }
+
+.footer {
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    color:white;
+    background-color: blue;
+}
+
+.header {
+    background-color:blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.search {
+    display: flex;
+    gap: 5px;
+}
+
