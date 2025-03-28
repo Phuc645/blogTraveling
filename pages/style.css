@@ -1,0 +1,15 @@
+body {
+    margin:0;
+}
+
+
+.header {
+    background-color:blue;
+    padding: 10px;
+    color:white;
+}
+
+a:link, a:visited {
+    color:white;
+    text-decoration: none;
+}

@@ -21,13 +21,22 @@ h3 {
     border-radius: 15px;
 }
 
+.card1:hover, .card2:hover, .card3:hover {
+    border-color:blue;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: black;
+}
+
 
 .hero {
     background-image: url(images/hero.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     font-size: large;
-    color: rgb(182, 179, 179);
+    color: whitesmoke;
     padding: 150px 50px 200px 20px;
 }
 
