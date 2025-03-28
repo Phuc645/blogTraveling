@@ -23,9 +23,11 @@ h3 {
 
 
 .hero {
+    background-image: url(images/hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     font-size: large;
-    color: white;
-    background-color: chocolate;
+    color: rgb(182, 179, 179);
     padding: 150px 50px 200px 20px;
 }
 
