@@ -13,3 +13,18 @@ a:link, a:visited {
     color:white;
     text-decoration: none;
 }
+
+.para {
+    padding-left: 3%;
+    padding-right: 30%;
+    font-size: 20px;
+}
+h1{
+    font-size:50px;
+    padding-left:3%;
+}
+
+h2 {
+    font-size:2.5em;
+    padding-left:3%;
+}
