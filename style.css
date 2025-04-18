@@ -15,13 +15,13 @@ h3 {
     text-align: center;
 }
 
-.card1, .card2, .card3 {
+.card{
     border: 1px solid rgb(0, 0, 0);
     padding: 10px;
     border-radius: 15px;
 }
 
-.card1:hover, .card2:hover, .card3:hover {
+.card:hover {
     border-color:blue;
 }
 
