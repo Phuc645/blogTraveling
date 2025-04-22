@@ -9,10 +9,6 @@ footer {
     padding: 10px;
 }
 
-a:link, a:visited {
-    color:white;
-    text-decoration: none;
-}
 
 .para {
     padding-left: 3%;
@@ -54,4 +50,20 @@ ul {
 .search input {
     width: 250px;
     border-radius:15px;
+}
+
+img {
+    padding-left: 3%;
+    width: 40%;
+    height: 30%;
+    object-fit: cover;
+}
+
+figcaption {
+    padding-left: 20%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }

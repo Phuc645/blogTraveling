@@ -4,7 +4,7 @@ const posts = [
     { name: "Phú Quốc", image: "images/phuquoc.jpg", alt: "Phú Quốc", link: "pages/vinhhalong.html" }
 ];
 
-function render() {
+function renderpost() {
     const content = document.querySelector(".content");
     posts.forEach(post => {
         const card = document.createElement("div");
@@ -17,6 +17,6 @@ function render() {
         content.appendChild(card);
     });
 }
-document.addEventListener("DOMContentLoaded", render);
+document.addEventListener("DOMContentLoaded", renderpost);
 
 

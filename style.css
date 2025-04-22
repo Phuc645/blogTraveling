@@ -1,86 +1,93 @@
-body {
+:root {
+    --primary-color: blue;
+    --text-light: whitesmoke;
+    --border-radius: 15px;
+  }
+  
+  body {
     font-family: 'Times New Roman', Times, serif;
     margin: 0;
-    padding: 0;
-}
-
-.content{
+  }
+  
+  .content {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-h3 {
+    margin: 20px 0;
+  }
+  
+  h3 {
     text-align: center;
-}
-
-.card{
-    border: 1px solid rgb(0, 0, 0);
+  }
+  
+  .card {
+    border: 1px solid black;
     padding: 10px;
-    border-radius: 15px;
-}
-
-.card:hover {
-    border-color:blue;
-}
-
-a:link, a:visited {
+    border-radius: var(--border-radius);
+    transition: border-color 0.3s ease;
+  }
+  
+  .card:hover {
+    border-color: var(--primary-color);
+  }
+  
+  a {
     text-decoration: none;
-    color: black;
-}
-
-
-.hero {
-    background-image: url(images/hero.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    color: inherit;
+  }
+  
+  .hero {
+    background: url(images/hero.jpg) no-repeat center/cover;
+    opacity: 0.8;
     font-size: large;
-    color: whitesmoke;
-    padding: 150px 50px 200px 20px;
-}
-
-.footer {
-    padding: 10px 10px 10px 10px;
-    text-align: center;
-    color:white;
-    background-color: blue;
-}
-
-.header {
-    background-color:blue;
+    color: var(--text-light);
+    padding: 150px 20px 200px;
+  }
+  
+  .footer,
+  .header {
+    background-color: var(--primary-color);
+    color: white;
+  }
+  
+  .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-}
+  }
 
-.search {
+  .footer {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .search {
     display: flex;
     gap: 5px;
-}
-
-ul {
-    color: white;
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
+  }
+  
+  .search input {
+    width: 250px;
+    border-radius: var(--border-radius);
+  }
+  
+  ul {
     display: flex;
     gap: 10px;
-}
-
-.tourist {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    color: inherit;
+  }
+  
+  .tourist {
     width: 300px;
     height: 200px;
-}
-
-.search input {
-    width: 250px;
-    border-radius:15px;
-}
-
-.text{
+    object-fit: cover;
+  }
+  
+  .text {
     padding-left: 235px;
     font-weight: bold;
-    font-size:40px;
-}
+    font-size: 40px;
+  }
