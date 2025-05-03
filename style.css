@@ -39,7 +39,7 @@
     background: url(images/hero.jpg) no-repeat center/cover;
     opacity: 0.8;
     font-size: large;
-    color: var(--text-light);
+    color: black;
     padding: 150px 20px 200px;
   }
   
