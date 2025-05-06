@@ -1,5 +1,4 @@
 
-
 fetch("posts.json").then(response => response.json()).then(posts => renderpost(posts));
 
 function renderpost(posts) {
